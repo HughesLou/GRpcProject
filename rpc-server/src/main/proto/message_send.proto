@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package message;
+
+// 编译后代码生成的目录
+option java_package = "com.hughes.protobuf.message";
+option java_outer_classname = "MessageSendProto";
+
+option java_multiple_files = true;
+
+// 消息发送Rpc接口
+service MessageSendService {
+    // 发消息方法
+    rpc send (SendRequest) returns (SendResponse);
+}
+
+// 定义发送消息请求实体类
+message SendRequest {
+    // 发送的消息内容
+    string content = 1;
+}
+
+// 定义send接口的返回结果
+message SendResponse {
+    int32 code = 1;
+    string message = 2;
+}
