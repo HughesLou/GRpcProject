@@ -5,7 +5,7 @@ import com.hughes.protobuf.message.SendResponse;
 import com.hughes.service.impl.MessageSendServiceImpl;
 
 /**
- * @author HughesLou <luzhiwei@kuaishou.com>
+ * @author HughesLou
  * Created on 2022-03-09
  */
 public interface MessageSendService {

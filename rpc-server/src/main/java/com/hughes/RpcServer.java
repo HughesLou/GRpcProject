@@ -8,7 +8,7 @@ import io.grpc.Server;
 import io.grpc.ServerBuilder;
 
 /**
- * @author HughesLou <luzhiwei@kuaishou.com>
+ * @author HughesLou
  * Created on 2022-03-09
  */
 public class RpcServer {
